@@ -10,16 +10,18 @@ body{
     height: 100vh;
 }
 
+
+
 header h1{
     color: black;
     font-family: 'Aldrich', sans-serif;
     font-size: 70px;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    display: block;
     background: rgb(12,22,79);
     background: linear-gradient(90deg, rgba(12,22,79,1) 20%, rgba(186,30,104,1) 52%, rgba(86,67,253,1) 81%);
     color: white;
+    margin: 50px auto;
 }
 
 header nav #inc {
@@ -127,6 +129,6 @@ header nav #spx:hover{
  }
 
  #saturnv:hover {
-     transform: rotate(90deg);
+     margin-right: 100px;
      transition: 1s;
  }
