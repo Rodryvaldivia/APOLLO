@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    
+}
+
+body{
+    background: url(wallpaper.png);
+    height: 100vh;
+}
+
+header h1{
+    color: black;
+    font-family: 'Aldrich', sans-serif;
+    font-size: 70px;
+    text-align: center;
+    display: block;
+    background: rgb(12,22,79);
+    background: linear-gradient(90deg, rgba(12,22,79,1) 20%, rgba(186,30,104,1) 52%, rgba(86,67,253,1) 81%);
+    color: white;
+    margin: 50px auto;
+}
+
+header nav #inc {
+    position: relative;
+    bottom: 25px;
+    display: inline-block;
+    width: 130px;
+    height: 35px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: sans-serif;
+    background-color: transparent;
+    text-align: center;
+    padding-top: 6.8px;
+    margin-left: 15px;
+}
+
+header nav #inc:hover {
+    background: white;
+    transition: 0.5s;
+    color: black;
+}
+
+header nav #ap1{
+    position: relative;
+    bottom: 25px;
+    display: inline-block;
+    width: 130px;
+    height: 35px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: sans-serif;
+    background-color: transparent;
+    text-align: center;
+    padding-top: 6.8px;
+    margin-left: 15px;
+}
+
+header nav #ap1:hover{
+    background: white;
+    transition: 0.5s;
+    color: black;
+}
+
+header nav #spx{
+    position: relative;
+    bottom: 25px;
+    display: inline-block;
+    width: 130px;
+    height: 35px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: sans-serif;
+    background-color: transparent;
+    text-align: center;
+    padding-top: 6.8px;
+    margin-left: 15px;
+}
+
+header nav #spx:hover{
+    background: white;
+    transition: 0.5s;
+    color: black;
+}
+article h2{
+    color: white;
+    font-family: "Aldrich";
+    font-size: 50px;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+article p{
+    color: white;
+    font-family: sans-serif;
+    margin-top: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.Astronauts{
+    margin: 50px auto;
+}
+
+
+.Astronauts img{
+    margin: 0px 15px 0px 15px;
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+    object-position: right;
+    border: 1px solid white;
+}
+
+.Astronauts img:hover{
+    border: 1px solid #ba1e68;
+    transition: .5s;
+}
+
+.info input {
+    background-color:transparent;
+    font-family: "Aldrich";
+    color: white;
+    border: 1px solid white;    
+}
+
+footer {
+    background: rgb(12,22,79);
+    background: linear-gradient(90deg, rgba(12,22,79,1) 20%, rgba(186,30,104,1) 52%, rgba(86,67,253,1) 81%);
+    height: 200px;
+}
+
+ footer h4 {
+     color: white;
+     font-family: sans-serif;
+     text-align: center;
+     padding-top: 80px;
+ }
+ footer a{
+     color: white;
+     text-decoration: none;
+     font-size: 30px;
+     margin-left: 20px;
+     margin-top: 20px;
+ }
+
+ footer a:hover{
+     color: black;
+     transition: .5s;
+ }
+ 
+ 

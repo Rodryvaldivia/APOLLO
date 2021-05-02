@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    
+}
+
+body{
+    background: url(wallpaper.png);
+    height: 100vh;
+}
+
+header h1{
+    color: black;
+    font-family: 'Aldrich', sans-serif;
+    font-size: 70px;
+    text-align: center;
+    display: block;
+    background: rgb(12,22,79);
+    background: linear-gradient(90deg, rgba(12,22,79,1) 20%, rgba(186,30,104,1) 52%, rgba(86,67,253,1) 81%);
+    color: white;
+    margin: 50px auto;
+}
+
+header nav #inc {
+    position: relative;
+    bottom: 25px;
+    display: inline-block;
+    width: 130px;
+    height: 35px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: sans-serif;
+    background-color: black;
+    text-align: center;
+    padding-top: 6.8px;
+    margin-left: 15px;
+}
+
+header nav #inc:hover {
+    background: white;
+    transition: 0.5s;
+    color: black;
+}
+
+header nav #ap1{
+    position: relative;
+    bottom: 25px;
+    display: inline-block;
+    width: 130px;
+    height: 35px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: sans-serif;
+    background-color: black;
+    text-align: center;
+    padding-top: 6.8px;
+    margin-left: 15px;
+}
+
+header nav #ap1:hover{
+    background: white;
+    transition: 0.5s;
+    color: black;
+}
+
+header nav #spx{
+    position: relative;
+    bottom: 25px;
+    display: inline-block;
+    width: 130px;
+    height: 35px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: sans-serif;
+    background-color: black;
+    text-align: center;
+    padding-top: 6.8px;
+    margin-left: 15px;
+}
+
+header nav #spx:hover{
+    background: white;
+    transition: 0.5s;
+    color: black;
+}
+
+ .medio img{
+     width: 60vh;
+     margin-bottom: 20px;
+ }
+
+ .medio h2{
+     color: white;
+     font-family: "Aldrich";
+     font-size: 50px;
+    text-align: center;
+ }
+
+ .medio p {
+     color: white;
+     margin: 10px 10vh 50px 10vh;
+     font-family: sans-serif;
+     font-size: 18px
+ }
+
+ #alunizaje {
+     border: 1px solid white;
+ }
+
+ #alunizaje:hover{
+     border: 1px solid #ba1e68;
+     transition: .5s;
+ }
+
+ .inferior h2{
+     color: white;
+     text-align: center;
+     font-family: "Aldrich";
+     font-size: 50px;
+     margin-top: 20px;
+ }
+
+ #ParrafoAlunizaje{
+     color: white;
+     margin: 10px 10vh 50px 10vh;
+     font-family: sans-serif;
+     font-size: 18px;
+     margin-bottom: 50px;
+ }
+ #alunizaje2 {
+     margin-bottom: 100px;
+     border: 1px solid white;
+ }
+ #alunizaje2:hover {
+    border: 1px solid #ba1e68;
+    transition: .5s;
+}
+
+.final h4 {
+    font-family: sans-serif;
+    color: white;
+    position: relative;
+    bottom: 100px;
+    width: 800px;
+}
+
+
+footer {
+    background: rgb(12,22,79);
+    background: linear-gradient(90deg, rgba(12,22,79,1) 20%, rgba(186,30,104,1) 52%, rgba(86,67,253,1) 81%);
+    height: 200px;
+}
+
+ footer h4 {
+     color: white;
+     font-family: sans-serif;
+     text-align: center;
+     padding-top: 80px;
+ }
+ footer a{
+     color: white;
+     text-decoration: none;
+     font-size: 30px;
+     margin-left: 20px;
+     margin-top: 20px;
+ }
+
+ footer a:hover{
+     color: black;
+     transition: .5s;
+ }
+ 
+ 
